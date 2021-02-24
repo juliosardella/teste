@@ -14,6 +14,20 @@
     "bankCode": "1",
     "agencyCode ": "4362-1",
     "accountCode": "5237-X"
+  },
+   {
+    "history": "Coobrigação efetivada",
+    "creditUnits": [],
+    "operation": 20,
+    "platformId": "5586f50b-3262-48b8-bd2a-92e59be4dfdd",
+    "erpId": "01000177935601",
+    "date": "20200828",
+    "localAmount": 325.7,
+    "feeAmount": 15.53,
+    "typeOperation": 1,
+    "bankCode": "1",
+    "agencyCode ": "4362-1",
+    "accountCode": "5237-X"
   }
            
   ]

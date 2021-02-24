@@ -1,0 +1,24 @@
+*VERSÃO DA ROTINA:* N/A
+
+*TABELAS UTILIZADAS:* PCBANCO, PCPREST, PCPARAMFILIAL, PCCONSUM, PCESTCR, PCMOVCR, PCTRANSACAOANTECIPA
+
+1 - Realizar a Conciliação da Coobrigação:
+
+//verifica se gravou corretamente as 2 SAÍDAS e as 2 CONTRAPARTIDAS
+SELECT * FROM PCMOVCR a WHERE a.HISTORICO  LIKE '%CONCILIAÇÃO DE COOBRIGAÇÃO%' ORDER BY a.NUMTRANS DESC
+
+//confere a mudança de saldo na PCESTCR
+SELECT * FROM PCESTCR WHERE CODBANCO=1 AND CODCOB='TECH'
+
+//verifica gravacao transacao
+SELECT * FROM PCTRANSACAOANTECIPA b where b.NUMTRANS= <<numero da transacao>>
+
+
+
+
+*NECESSITA DE PERMISSÃO OU PARAMETRIZAÇÃO? QUAIS?* 
+SIM, EXECUTAR: 
+UPDATE PCPARAMFILIAL SET valor = 'https://my-json-server.typicode.com/juliosardella/teste/conciliacao-coobrigacao' WHERE  NOME ='URI_ANTECIPA_PROD'
+
+*ATUALIZAÇÃO A SER REALIZADA:* N/A
+

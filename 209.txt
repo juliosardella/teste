@@ -13,22 +13,9 @@ SELECT * FROM PCESTCR WHERE CODBANCO=1 AND CODCOB='TECH'
 //verifica gravacao transacao
 SELECT * FROM PCTRANSACAOANTECIPA b where b.NUMTRANS= <<numero da transacao>>
 
-
-
-
 *NECESSITA DE PERMISSÃO OU PARAMETRIZAÇÃO? QUAIS?* 
 SIM, EXECUTAR: 
 - UPDATE PCPARAMFILIAL SET valor = 'https://my-json-server.typicode.com/juliosardella/teste/conciliacao-coobrigacao' WHERE  NOME ='URI_ANTECIPA_PROD'
-
--- criar os registros da 
-- Criar um registro na PCTRANSACAOANTECIPA com:
- CODFILIAL = 1
- NUMTRANSVENDA = 1779332
- PREST = 1
- OPERACAO = 3
- e um NUMTRANS. Esse NUMTRANS será usado para criar 2 registros na tabela PCMOVCR
-
-
 
 *ATUALIZAÇÃO A SER REALIZADA:* N/A
 

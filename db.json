@@ -2,7 +2,7 @@
   "conciliacao-coobrigacao": [
     
    {
-    "history": "Coobrigação efetivada TOTVS Antecipa",
+    "history": "1-Debito: Coobrigação efetivada",
     "creditUnits": [],
     "operation": 3,
     "platformId": "5586f50b-3262-48b8-bd2a-92e59be4dfdd",
@@ -10,21 +10,21 @@
     "date": "20200728",
     "localAmount": 771.78,
 	"feeAmount": 1.64,
-    "typeOperation": 0
+    "typeOperation": 1
   }
   ],
   "coobrigacao": [
     
    {
-    "history": "Coobrigação efetivada TOTVS Antecipa",
+    "history": "1-Debito: Coobrigação efetivada",
     "creditUnits": [],
     "operation": 20,
     "platformId": "5586f50b-3262-48b8-bd2a-92e59be4dfdd",
-	"erpId": "01000177933201",
+	"erpId": "01000177936801",
     "date": "20200728",
     "localAmount": 771.78,
 	"feeAmount": 1.64,
-    "typeOperation": 0
+    "typeOperation": 1
   }
   ], 
    "divergencia": [

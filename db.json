@@ -37,6 +37,7 @@
     "date": "20200828",
     "localAmount": 325.7,
     "feeAmount": 15.53,
+	"feeAmountOrigin": 12.01,
     "typeOperation": 1,
     "bankCode": "1",
     "agencyCode ": "4362-1",

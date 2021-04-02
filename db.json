@@ -76,8 +76,7 @@
     "bankCode": "1",
     "agencyCode ": "4362-1",
     "accountCode": "5237-X"
-  },
-  {
+  },{
     "history": "Estorno Baixa",
     "creditUnits": [],
     "operation": 2,
@@ -85,12 +84,12 @@
     "erpId": "01000177935801",
     "date": "20200828",
     "localAmount": 1149.72,
-    "feeAmount": 21.53,
+    "feeAmount": 21,53,
     "typeOperation": 1,
     "bankCode": "1",
     "agencyCode ": "4362-1",
     "accountCode": "5237-X"
   }
+          
   ]
-  
 }

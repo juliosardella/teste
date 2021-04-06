@@ -92,7 +92,7 @@
   }
           
   ],
-  "conciliacao" [
+  "conciliacao": [
     {
     "history": "IMPL com 2-Credito: Implantação de antecipação",
     "creditUnits": [],
@@ -107,6 +107,7 @@
     "agencyCode ": "4362-1",
     "accountCode": "5237-X"
 
-  }]
+  }
+  ]
   
 }

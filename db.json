@@ -1,8 +1,8 @@
 {
-  "conciliacao-recompra": [
+  "conciliacao-divergencia": [
     
    {
-    "history": "49491393|Recompra",
+    "history": "49491393|Divergencia comercial",
     "creditUnits": [],
     "operation": 20,
     "platformId": "5586f50b-3262-48b8-bd2a-92e59be4dfdd",

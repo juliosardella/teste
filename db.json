@@ -26,7 +26,7 @@
       "amountReturn": 100,
       "amountDebitTotal": 100,
       "amountReversalTax": 5,
-      "instalment": "string",
+      "instalment": "1",
       "debitDate": "2021-09-02T15:04:22.264",
       "_expandables": [
         "string"

@@ -10,13 +10,13 @@
 }
   
   ],
-  "invoiceCancellation": [
+  "invoiceCancellation": 
   {
   "hasNext": true,
   "items": [
     {
       "id": "456465465",
-      "erpId": "1|1|200005",
+      "erpId": "1|1|200061",
       "status": 0,
       "amountDebitTax": 1.2,
       "sent": true,
@@ -34,7 +34,7 @@
     }
   ]
 }
-  ]
+  
   
 }
 

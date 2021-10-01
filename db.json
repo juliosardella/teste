@@ -12,26 +12,42 @@
   ],
   "invoiceCancellation": 
   {
-  "hasNext": true,
-  "items": [
-    {
-      "id": "456465465",
-      "erpId": "1|1|200061",
-      "status": 0,
-      "amountDebitTax": 1.2,
-      "sent": true,
-      "sentDateConfirmation": "2021-09-02T15:04:22.264",
-      "observation": "Nenhuma",
-      "balanceCreditTicket": 0,
-      "amountReturn": 100,
-      "amountDebitTotal": 100,
-      "amountReversalTax": 5,
-      "instalment": "1",
-      "debitDate": "2021-09-02T15:04:22.264",
-      "_expandables": [
-        "string"
-      ]
-    }
+    "hasNext": false,
+    "items": [
+        {
+            "id": "cd0ab11a-db2d-d460-4fb2-103434bd4811",
+            "erpId": "1|1|200121",
+            "status": 2,
+            "amountDebitTax": 0.0,
+            "sent": false,
+            "sentDateConfirmation": "0001-01-01T00:00:00",
+            "observation": null,
+            "balanceCreditTicket": 0.0,
+            "amountReturn": 139.11,
+            "amountDebitTotal": 137.16,
+            "amountReversalTax": 1.95,
+            "instalment": "1",
+            "debitDate": "2021-10-04T00:00:00",
+            "_expandables": []
+        },
+        {
+            "id": "b91e75b2-7fe3-952f-2313-3318c10ec46a",
+            "erpId": "1|1|275",
+            "status": 2,
+            "amountDebitTax": 0.0,
+            "sent": false,
+            "sentDateConfirmation": "0001-01-01T00:00:00",
+            "observation": null,
+            "balanceCreditTicket": 0.0,
+            "amountReturn": 209.99,
+            "amountDebitTotal": 207.79,
+            "amountReversalTax": 2.2,
+            "instalment": "1",
+            "debitDate": "2021-10-04T00:00:00",
+            "_expandables": []
+        }
+    ]
+}
   ]
 }
   

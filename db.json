@@ -1,15 +1,4 @@
 {
-  "cancelamento": [
-    
-  {
-  "protocolNumber": "101",
-  "erpId": "200061",
-  "statusProcess": 1,
-  "description": "string",
-  "retryCount": 0
-}
-  
-  ],
   "invoiceCancellation": 
   {
     "hasNext": false,

@@ -38,22 +38,4 @@
 	}
   ]
 
-},
-	"devolucao2": [
-
-  {
-    "history": "LiberaÃ§Ã£o NCC Totvs Antecipa",
-    "creditUnits": [],
-    "operation": 13,
-    "platformId": "12fa63ab-d32b-4635-ac50-ac098ed15bd2",
-    "erpId": "01000020013301",
-    "date": "20211006",
-	"debitDate": "20211006",
-    "localAmount": 428.88,
-	"feeAmount": 12.34,
-    "feeAmount": 0,
-    "typeOperation": 0
-	}
-  ]
-
 }

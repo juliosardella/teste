@@ -21,8 +21,8 @@
         }
     ]
 },
-	"devolucao": {
-[
+	"devolucao": [
+
   {
     "history": "LiberaÃ§Ã£o NCC Totvs Antecipa",
     "creditUnits": [],
@@ -33,10 +33,10 @@
     "localAmount": 428.88,
     "feeAmount": 0,
     "typeOperation": 0
-  }
+	}
   ]
 
-}
+
 
  
 }

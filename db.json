@@ -33,6 +33,7 @@
 	"debitDate": "20211006",
     "localAmount": 428.88,
 	"feeAmount": 12.34,
+	"feeAmountOrigin": 0.1,
     "typeOperation": 0
 	}
   ]

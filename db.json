@@ -71,6 +71,7 @@
     "typeOperation": 0
 	}
   ],
+  
     "cancellationBianca": 
   {
     "hasNext": false,
@@ -93,8 +94,5 @@
         }
     ]
 }
-
-
-
  
 }

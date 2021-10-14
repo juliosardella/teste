@@ -6,7 +6,7 @@
         {
             "id": "5962b8d4-20ae-c0cb-eb5a-d4303f66e6d0",
             "erpId": "1|1|200133",
-            "status": 3,
+            "status": 2,
             "amountDebitTax": 1.12,
             "sent": false,
             "sentDateConfirmation": "0001-01-01T00:00:00",

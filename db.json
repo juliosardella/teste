@@ -83,6 +83,63 @@
 	"feeAmountOrigin": 0.1,
     "typeOperation": 0
 	}
+  ],
+  "conciliacao": [
+
+  {
+    "hasNext": false,
+    "items": [
+        {
+            "ConciliacaoId": "099e1f84-7dde-4d49-8de8-b236f313dc9a",
+            "codigoGrupo": "O995",
+            "dataLancamentos": "2021-10-14T00:00:00",
+            "contas": [
+                {
+                    "contaId": "ffb60298-0f73-42f5-a3fd-3646630bd0b2",
+                    "banco": "341",
+                    "agencia": "1010-1",
+                    "contaCorrente": "10199-3",
+                    "valorSaldoNegativoAnterior": 0.0,
+                    "valorTotalCreditos": 137.16,
+                    "valorTotalDebitos": -429.82,
+                    "valorTotalLiquidoPagamento": 0.0,
+                    "valorSaldoNegativoDia": -292.66,
+                    "lancamentos": [
+                        {
+                            "lancamentoId": "e48edff7-4cfa-45a0-a77d-886b4539d9e4",
+                            "tipoLancamento": "CREDITO",
+                            "tipoEvento": "IMPL",
+                            "tipoEventoDesc": "Implantação de compra",
+                            "lancamentoFuturo": "N",
+                            "dataLancamento": "2021-10-27T00:00:00",
+                            "valorLancamento": 145.76,
+                            "valorImpostos": 0.0,
+                            "dataEvento": "2021-10-26T00:00:00",
+                            "cnpjCpf": "20857131000288",
+                            "cnpjParceiro": "07577599000501",
+                            "numeroNotaFiscal": "1286",
+                            "codigoTransacao": "8550000001286",
+                            "tipoTransacao": "0",
+                            "tipoTransacaoDesc": "Compra com Cartao",
+                            "valorPrincipalTransacao": 300.0,
+                            "valorTotalTransacao": 300.0,
+                            "numeroParcelas": 2,
+                            "parcela": 2,
+                            "valorPrincipalParcela": 149.99,
+                            "valorTotalParcela": 149.99,
+                            "dataVencimentoOriginalParcela": "2021-12-21T00:00:00",
+                            "dataVencimentoAtualParcela": "2021-12-21T00:00:00",
+                            "custoAntecipacaoParcela": 4.23,
+                            "eventoDivergenciaComercial": null
+                        }
+                    ]
+                }
+            ],
+            "_expandables": []
+        }
+    ]
+}
+
   ]
 
 

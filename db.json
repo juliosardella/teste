@@ -1,6 +1,8 @@
 {
  "invoice": 
 {
+  "hasNext" : false,
+  "items" : [ {
     "id" : "959c8e30-7023-bed4-6d55-b29816c34f56",
     "erpId" : "1|1|765",
     "codigoRetorno" : "000",
@@ -44,11 +46,13 @@
           "tipoTaxa" : "ANTECIPACAO",
           "valorTaxa" : 1.5,
           "valorTaxaEmReais" : 4.09
-        } 
+        } ]
       } ]
-    }
-  
+    },
+    "_expandables" : [ ]
+  } ]
 }
+
 ,
 
     "invoiceCancellation": 

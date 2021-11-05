@@ -44,7 +44,7 @@
           "tipoTaxa" : "ANTECIPACAO",
           "valorTaxa" : 1.5,
           "valorTaxaEmReais" : 4.09
-        } ]
+        } 
       } ]
     },
     "_expandables" : [ ]

@@ -1,4 +1,57 @@
 {
+ "invoice": 
+{
+    "id" : "959c8e30-7023-bed4-6d55-b29816c34f56",
+    "erpId" : "1|1|765",
+    "codigoRetorno" : "000",
+    "mensagemRetorno" : "Solicitação processada com sucesso.",
+    "dataHoraRetorno" : "2021-11-05T10:45:21",
+    "transacao" : {
+      "cnpjCpf" : "87474836000106",
+      "cnpjParceiro" : "07577599000501",
+      "codigoTransacao" : "45070000001351",
+      "codigoAutorizacao" : "38901947",
+      "numeroNotaFiscal" : "1351",
+      "numeroPedido" : "8000145",
+      "numeroParcelas" : 1,
+      "valorNotaFiscal" : 390.68,
+      "valorTotalTransacao" : 390.68,
+      "valorTransacao" : 0.0,
+      "tipoTransacaoImplantada" : "0",
+      "tipoTransacaoImplantadaDesc" : "Compra com Cartao",
+      "tipoTransacaoSolicitada" : null,
+      "tipoTransacaoSolicitadaDesc" : null,
+      "tipoRecebimentoParceiro" : "3",
+      "tipoRecebimentoParceiroDesc" : "Antecipado - Pagamento em DN",
+      "dataHoraImplantacao" : null,
+      "dataEmissaoNotaFiscal" : "2021-11-05",
+      "tipoCliente" : "0000",
+      "boleto" : "",
+      "taxas" : [ {
+        "idTipoTaxa" : "1",
+        "tipoTaxa" : "ANTECIPACAO",
+        "valorTaxa" : 1.5,
+        "valorTaxaEmReais" : 4.09
+      } ],
+      "parcelas" : [ {
+        "numeroParcela" : 1,
+        "dataVencimentoParcela" : "2021-11-26",
+        "valorParcela" : 390.68,
+        "valorRecebimentoParceiro" : 386.59,
+        "dataRecebimentoParceiro" : "2021-11-05",
+        "taxasParcela" : [ {
+          "idTipoTaxa" : "1",
+          "tipoTaxa" : "ANTECIPACAO",
+          "valorTaxa" : 1.5,
+          "valorTaxaEmReais" : 4.09
+        } ]
+      } ]
+    },
+    "_expandables" : [ ]
+  } ]
+}
+,
+
     "invoiceCancellation": 
   {
     "hasNext": false,

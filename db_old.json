@@ -1,0 +1,212 @@
+{
+ "invoice": 
+{
+  "hasNext" : false,
+  "items" : [ {
+    "id" : "959c8e30-7023-bed4-6d55-b29816c34f56",
+    "erpId" : "1|1|765",
+    "codigoRetorno" : "000",
+    "mensagemRetorno" : "Solicitação processada com sucesso.",
+    "dataHoraRetorno" : "2021-11-05T10:45:21",
+    "transacao" : {
+      "cnpjCpf" : "87474836000106",
+      "cnpjParceiro" : "07577599000501",
+      "codigoTransacao" : "45070000001351",
+      "codigoAutorizacao" : "38901947",
+      "numeroNotaFiscal" : "1351",
+      "numeroPedido" : "8000145",
+      "numeroParcelas" : 1,
+      "valorNotaFiscal" : 390.68,
+      "valorTotalTransacao" : 390.68,
+      "valorTransacao" : 0.0,
+      "tipoTransacaoImplantada" : "0",
+      "tipoTransacaoImplantadaDesc" : "Compra com Cartao",
+      "tipoTransacaoSolicitada" : null,
+      "tipoTransacaoSolicitadaDesc" : null,
+      "tipoRecebimentoParceiro" : "3",
+      "tipoRecebimentoParceiroDesc" : "Antecipado - Pagamento em DN",
+      "dataHoraImplantacao" : null,
+      "dataEmissaoNotaFiscal" : "2021-11-05",
+      "tipoCliente" : "0000",
+      "boleto" : "",
+      "taxas" : [ {
+        "idTipoTaxa" : "1",
+        "tipoTaxa" : "ANTECIPACAO",
+        "valorTaxa" : 1.5,
+        "valorTaxaEmReais" : 4.09
+      } ],
+      "parcelas" : [ {
+        "numeroParcela" : 1,
+        "dataVencimentoParcela" : "2021-11-26",
+        "valorParcela" : 390.68,
+        "valorRecebimentoParceiro" : 386.59,
+        "dataRecebimentoParceiro" : "2021-11-05",
+        "taxasParcela" : [ {
+          "idTipoTaxa" : "1",
+          "tipoTaxa" : "ANTECIPACAO",
+          "valorTaxa" : 1.5,
+          "valorTaxaEmReais" : 4.09
+        } ]
+      } ]
+    },
+    "_expandables" : [ ]
+  } ]
+}
+
+,
+
+    "invoiceCancellation": 
+  {
+    "hasNext": false,
+    "items": [
+        {
+            "id": "5962b8d4-20ae-c0cb-eb5a-d4303f66e6d0",
+            "erpId": "1|1|200133",
+            "status": 2,
+            "amountDebitTax": 1.12,
+            "sent": false,
+            "sentDateConfirmation": "0001-01-01T00:00:00",
+            "observation": null,
+            "balanceCreditTicket": 0.0,
+            "amountReturn": 70.45,
+            "amountDebitTotal": 69.58,
+            "amountReversalTax": 0.99,
+            "instalment": "1",
+            "debitDate": "2021-10-08T00:00:00",
+            "_expandables": []
+        }
+    ]
+},
+	"devolucao": [
+
+  {
+    "history": "LiberaÃ§Ã£o NCC Totvs Antecipa",
+    "creditUnits": [],
+    "operation": 13,
+    "platformId": "12fa63ab-d32b-4635-ac50-ac098ed15bd2",
+    "erpId": "01000020013301",
+    "date": "20211006",
+	"debitDate": "20211006",
+    "localAmount": 428.88,
+	"feeAmount": 12.34,
+	"feeAmountOrigin": 0.1,
+    "typeOperation": 0
+	},
+	  {
+    "history": "LiberaÃ§Ã£o NCC Totvs Antecipa",
+    "creditUnits": [],
+    "operation": 14,
+    "platformId": "12fa63ab-d32b-4635-ac50-ac098ed15bd2",
+    "erpId": "01000020013301",
+    "date": "20211006",
+	"debitDate": "20211006",
+    "localAmount": 11579.76,
+	"feeAmount": 12.34,
+	"feeAmountOrigin": 0.1,
+    "typeOperation": 0
+	}
+  ]
+  ,
+	"devolucao-parcial": [
+
+  {
+    "history": "LiberaÃ§Ã£o NCC Totvs Antecipa",
+    "creditUnits": [],
+    "operation": 14,
+    "platformId": "12fa63ab-d32b-4635-ac50-ac098ed15bd2",
+    "erpId": "01000020013301",
+    "date": "20211006",
+	"debitDate": "20211006",
+    "localAmount": 428.88,
+	"feeAmount": 12.34,
+	"feeAmountOrigin": 0.1,
+    "typeOperation": 0
+	}
+  ]
+  ,
+  "conciliacao": 
+{
+    "hasNext": false,
+    "items": [
+        {
+            "ConciliacaoId": "5174a6d2-8b50-475a-9d6d-96016ca1ba8b",
+            "codigoGrupo": "O995",
+            "dataLancamentos": "2021-10-19T00:00:00",
+            "contas": [
+                {
+                    "contaId": "f08ab67c-7f2e-483c-98ff-291d61dfee22",
+                    "banco": "341",
+                    "agencia": "1010-1",
+                    "contaCorrente": "10199-3",
+                    "valorSaldoNegativoAnterior": 0.0,
+                    "valorTotalCreditos": 6546.45,
+                    "valorTotalDebitos": -671.24,
+                    "valorTotalLiquidoPagamento": 5875.21,
+                    "valorSaldoNegativoDia": 0.0,
+                    "lancamentos": [
+                        {
+                            "lancamentoId": "939a2668-d352-4e46-b02f-dbc228ef1785",
+                            "tipoLancamento": "CREDITO",
+                            "tipoEvento": "IMPL",
+                            "tipoEventoDesc": "Implantação de compra",
+                            "lancamentoFuturo": "N",
+                            "dataLancamento": "2021-10-19T00:00:00",
+                            "valorLancamento": 104.21,
+                            "valorImpostos": 0.0,
+                            "dataEvento": "2021-10-19T00:00:00",
+                            "cnpjCpf": "20857131000288",
+                            "cnpjParceiro": "07577599000501",
+                            "numeroNotaFiscal": "1402",
+                            "codigoTransacao": "16580000001214",
+                            "tipoTransacao": "0",
+                            "tipoTransacaoDesc": "Compra com Cartao",
+                            "valorPrincipalTransacao": 211.35,
+                            "valorTotalTransacao": 211.35,
+                            "numeroParcelas": 2,
+                            "parcela": 1,
+                            "valorPrincipalParcela": 105.69,
+                            "valorTotalParcela": 105.69,
+                            "dataVencimentoOriginalParcela": "2021-11-16T00:00:00",
+                            "dataVencimentoAtualParcela": "2021-11-16T00:00:00",
+                            "custoAntecipacaoParcela": 1.48,
+                            "eventoDivergenciaComercial": null
+                        },
+                        {
+                            "lancamentoId": "85da770b-eb9b-4281-a320-ab499d97179c",
+                            "tipoLancamento": "CREDITO",
+                            "tipoEvento": "IMPL",
+                            "tipoEventoDesc": "Implantação de compra",
+                            "lancamentoFuturo": "N",
+                            "dataLancamento": "2021-10-19T00:00:00",
+                            "valorLancamento": 102.68,
+                            "valorImpostos": 0.0,
+                            "dataEvento": "2021-10-19T00:00:00",
+                            "cnpjCpf": "20857131000288",
+                            "cnpjParceiro": "07577599000501",
+                            "numeroNotaFiscal": "1214",
+                            "codigoTransacao": "16580000001214",
+                            "tipoTransacao": "0",
+                            "tipoTransacaoDesc": "Compra com Cartao",
+                            "valorPrincipalTransacao": 211.35,
+                            "valorTotalTransacao": 211.35,
+                            "numeroParcelas": 2,
+                            "parcela": 2,
+                            "valorPrincipalParcela": 105.66,
+                            "valorTotalParcela": 105.66,
+                            "dataVencimentoOriginalParcela": "2021-12-14T00:00:00",
+                            "dataVencimentoAtualParcela": "2021-12-14T00:00:00",
+                            "custoAntecipacaoParcela": 2.98,
+                            "eventoDivergenciaComercial": null
+                        },
+                    ]
+                }
+            ],
+        }
+    ]
+} 
+
+
+
+
+ 
+}

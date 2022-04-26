@@ -99,7 +99,7 @@
                 "dataHoraImplantacao": null,
                 "dataEmissaoNotaFiscal": "2022-04-26",
                 "tipoCliente": "0000",
-                "boleto": "JVBERi0xLjQKMSAwIG9iago8PAovVGl0bGUgKP",
+                "boleto": "",
                 "taxas": [
                     {
                         "idTipoTaxa": "1",
